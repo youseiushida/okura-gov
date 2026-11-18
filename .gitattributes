@@ -1,0 +1,13 @@
+# 判定コアが読む表のデータ（CSV）と、その元の実測の出力。
+# SOURCES.json の sha256 は、改行が CRLF の中身（Windows の作業ツリー）で記録してあり、判定コアは読むたびに照合する。
+# Linux・macOS で取り出しても同じバイト列になるように、改行を CRLF に固定する（リポジトリの中の保存は LF のまま）。
+packages/core/src/okura_core/rules/kyuyo/data/*.csv text eol=crlf
+packages/core/src/okura_core/rules/tax/data/*.csv text eol=crlf
+scripts/results/IMPL_kyuyo_beppyo5/*.csv text eol=crlf
+scripts/results/IMPL3_gensen_tables/*.csv text eol=crlf
+#
+# この設定が入る前に Linux・macOS で取り出した作業ツリーは、対象のファイルを取り出し直す：
+#   git rm -q --cached -- 'packages/core/src/okura_core/rules/kyuyo/data/*.csv' 'packages/core/src/okura_core/rules/tax/data/*.csv' \
+#       'scripts/results/IMPL_kyuyo_beppyo5/*.csv' 'scripts/results/IMPL3_gensen_tables/*.csv'
+#   git checkout HEAD -- 'packages/core/src/okura_core/rules/kyuyo/data/*.csv' 'packages/core/src/okura_core/rules/tax/data/*.csv' \
+#       'scripts/results/IMPL_kyuyo_beppyo5/*.csv' 'scripts/results/IMPL3_gensen_tables/*.csv'

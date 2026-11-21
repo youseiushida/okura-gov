@@ -1,0 +1,49 @@
+{
+ "checked_on": "2026-11-21",
+ "law_id": "504CO0000000300",
+ "revisions": {
+  "504CO0000000300_20240101_000000000000000": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2024-01-01",
+   "amendment_law_num": null,
+   "amendment_law_title": null,
+   "amendment_promulgate_date": "2022-09-09",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "1",
+   "current_revision_status": "PreviousEnforced",
+   "law_title": "森林環境税及び森林環境譲与税に関する法律施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2024-04-01T04:41:42+09:00"
+  },
+  "504CO0000000300_20240401_506CO0000000012": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2024-04-01",
+   "amendment_law_num": "令和六年政令第十二号",
+   "amendment_law_title": "地方自治法施行令等の一部を改正する政令",
+   "amendment_promulgate_date": "2024-01-19",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "PreviousEnforced",
+   "law_title": "森林環境税及び森林環境譲与税に関する法律施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2026-04-21T10:37:35+09:00"
+  },
+  "504CO0000000300_20260401_508CO0000000083": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_law_num": "令和八年政令第八十三号",
+   "amendment_law_title": "地方税法施行令等の一部を改正する政令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "CurrentEnforced",
+   "law_title": "森林環境税及び森林環境譲与税に関する法律施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2026-04-21T10:37:35+09:00"
+  }
+ },
+ "title": "森林環境税及び森林環境譲与税に関する法律施行令"
+}

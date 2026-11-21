@@ -1,0 +1,49 @@
+{
+ "checked_on": "2026-11-21",
+ "law_id": "426CO0000000353",
+ "revisions": {
+  "426CO0000000353_20170401_429CO0000000100": {
+   "amendment_enforcement_comment": "",
+   "amendment_enforcement_date": "2017-04-01",
+   "amendment_law_num": "平成二十九年政令第百号",
+   "amendment_law_title": "国民年金法施行令等の一部を改正する政令",
+   "amendment_promulgate_date": "2017-03-31",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "PreviousEnforced",
+   "law_title": "政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2021-06-18T05:16:56+09:00"
+  },
+  "426CO0000000353_20180305_429CO0000000329": {
+   "amendment_enforcement_comment": "",
+   "amendment_enforcement_date": "2018-03-05",
+   "amendment_law_num": "平成二十九年政令第三百二十九号",
+   "amendment_law_title": "国民年金法施行令及び政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令の一部を改正する政令",
+   "amendment_promulgate_date": "2017-12-27",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "PreviousEnforced",
+   "law_title": "政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2021-06-18T06:54:30+09:00"
+  },
+  "426CO0000000353_20180401_430CO0000000115": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2018-04-01",
+   "amendment_law_num": "平成三十年政令第百十五号",
+   "amendment_law_title": "国民年金法施行令等の一部を改正する政令",
+   "amendment_promulgate_date": "2018-03-30",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "CurrentEnforced",
+   "law_title": "政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2023-01-25T14:07:51+09:00"
+  }
+ },
+ "title": "政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令"
+}

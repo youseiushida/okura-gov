@@ -1,4 +1,10 @@
 {
- "cursor": "2026-11-20",
- "days": {}
+ "cursor": "2026-11-21",
+ "days": {
+  "2026-11-21": {
+   "http_status": 500,
+   "rows": 0,
+   "status": "no_data"
+  }
+ }
 }

@@ -1,0 +1,537 @@
+{
+ "run_at": "2026-11-23T11:55:42+09:00",
+ "okura_monitor": "0.1.0",
+ "sources": [
+  "egov",
+  "bulk",
+  "mhlw",
+  "pages"
+ ],
+ "errors": [],
+ "core_refs": {
+  "files_scanned": 102,
+  "laws": 37,
+  "unresolved_law_names": {}
+ },
+ "egov": [
+  {
+   "law_id": "129AC0000000089",
+   "title": "民法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "135AC1000000050",
+   "title": "明治三十五年法律第五十号（年齢計算ニ関スル法律）",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "211AC0000000070",
+   "title": "健康保険法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "215M10000008036",
+   "title": "健康保険法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "323AC1000000178",
+   "title": "国民の祝日に関する法律",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "325AC0000000226",
+   "title": "地方税法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "325CO0000000245",
+   "title": "地方税法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "328AC0000000245",
+   "title": "私立学校教職員共済法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "329M50000002023",
+   "title": "地方税法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "332AC0000000026",
+   "title": "租税特別措置法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "332CO0000000043",
+   "title": "租税特別措置法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "332M50000040015",
+   "title": "租税特別措置法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "333AC0000000128",
+   "title": "国家公務員共済組合法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "333AC0000000192",
+   "title": "国民健康保険法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "333CO0000000362",
+   "title": "国民健康保険法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "333M50000040054",
+   "title": "国家公務員共済組合法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "334AC0000000141",
+   "title": "国民年金法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "334CO0000000184",
+   "title": "国民年金法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "335M50000100012",
+   "title": "国民年金法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "337AC0000000066",
+   "title": "国税通則法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "337AC0000000152",
+   "title": "地方公務員等共済組合法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "337CO0000000135",
+   "title": "国税通則法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "340AC0000000033",
+   "title": "所得税法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "340CO0000000096",
+   "title": "所得税法施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "340M50000040011",
+   "title": "所得税法施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "340M50000040015",
+   "title": "減価償却資産の耐用年数等に関する省令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "341CO0000000376",
+   "title": "建国記念の日となる日を定める政令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "363AC0000000091",
+   "title": "行政機関の休日に関する法律",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "409AC0000000123",
+   "title": "介護保険法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "410AC0000000025",
+   "title": "電子計算機を使用して作成する国税関係帳簿書類の保存方法等の特例に関する法律",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "410M50000040043",
+   "title": "電子計算機を使用して作成する国税関係帳簿書類の保存方法等の特例に関する法律施行規則",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "416CO0000000298",
+   "title": "平成十六年度、平成十七年度、平成十九年度及び平成二十年度の国民年金制度及び厚生年金保険制度並びに国家公務員共済組合制度の改正に伴う厚生労働省関係法令に関する経過措置に関する政令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "417CO0000000092",
+   "title": "国民年金法による改定率の改定等に関する政令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "423AC0000000117",
+   "title": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "426CO0000000353",
+   "title": "政府管掌年金事業等の運営の改善のための国民年金法等の一部を改正する法律の一部の施行に伴う経過措置に関する政令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "431AC0000000003",
+   "title": "森林環境税及び森林環境譲与税に関する法律",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  },
+  {
+   "law_id": "504CO0000000300",
+   "title": "森林環境税及び森林環境譲与税に関する法律施行令",
+   "status": "checked",
+   "events": {
+    "new": 0,
+    "changed": 0,
+    "touched": 0
+   },
+   "touched": [],
+   "error": null
+  }
+ ],
+ "bulk": {
+  "days": [
+   {
+    "date": "2026-11-22",
+    "status": "ok",
+    "http_status": 200,
+    "csv": "R081122.csv",
+    "rows": 2,
+    "provisional_dates": 0,
+    "related_rows": 0,
+    "target_rows": [],
+    "error": null
+   }
+  ],
+  "status": "checked",
+  "cursor": "2026-11-22"
+ },
+ "mhlw": {
+  "url": "https://www.mhlw.go.jp/hourei/new/tsuchi/newindex.html",
+  "status": "not_modified"
+ },
+ "pages": [
+  {
+   "id": "nta_news",
+   "url": "https://www.nta.go.jp/information/news/index.htm",
+   "status": "not_modified",
+   "http_status": 304,
+   "added": 0,
+   "removed": 0,
+   "matched": 0,
+   "note": null,
+   "error": null
+  },
+  {
+   "id": "nta_shotoku_kaisei",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/kaisei/kaisei_a.htm",
+   "status": "not_modified",
+   "http_status": 304,
+   "added": 0,
+   "removed": 0,
+   "matched": 0,
+   "note": null,
+   "error": null
+  },
+  {
+   "id": "nta_gensen_index",
+   "url": "https://www.nta.go.jp/users/gensen/index.htm",
+   "status": "not_modified",
+   "http_status": 304,
+   "added": 0,
+   "removed": 0,
+   "matched": 0,
+   "note": null,
+   "error": null
+  },
+  {
+   "id": "nenkin_allnews",
+   "url": "https://www.nenkin.go.jp/allNewsList.html",
+   "status": "changed",
+   "http_status": 200,
+   "added": 4,
+   "removed": 4,
+   "matched": 0,
+   "note": null,
+   "error": null
+  }
+ ],
+ "targets": {
+  "egov_laws": 37,
+  "bulk_csv": 1,
+  "mhlw_new_notices": 1,
+  "pages": 4
+ },
+ "issues": [],
+ "requests": 43
+}

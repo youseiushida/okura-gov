@@ -1,5 +1,5 @@
 {
- "cursor": "2026-11-22",
+ "cursor": "2026-11-23",
  "days": {
   "2026-11-21": {
    "http_status": 500,
@@ -10,6 +10,11 @@
    "http_status": 200,
    "rows": 2,
    "status": "ok"
+  },
+  "2026-11-23": {
+   "http_status": 500,
+   "rows": 0,
+   "status": "no_data"
   }
  }
 }

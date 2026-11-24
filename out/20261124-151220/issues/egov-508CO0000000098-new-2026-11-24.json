@@ -1,0 +1,137 @@
+{
+ "key": "egov-508CO0000000098-new-2026-11-24",
+ "title": "[法令] 令和八年政令第九十八号（租税特別措置法施行令の一部を改正する政令）：租税特別措置法施行令に新しい版",
+ "source": "e-Gov 法令API v2（/law_revisions）",
+ "detected_on": "2026-11-24",
+ "summary": [
+  "租税特別措置法施行令：版 `332CO0000000043_20261124_508CO0000000098` が載った（施行 2026-11-24、CurrentEnforced、更新 2026-11-24T13:53:02+09:00）"
+ ],
+ "source_urls": [
+  "https://laws.e-gov.go.jp/law/332CO0000000043/20261124_508CO0000000098",
+  "https://laws.e-gov.go.jp/api/2/law_revisions/332CO0000000043"
+ ],
+ "enforcement": [
+  {
+   "label": "租税特別措置法施行令（332CO0000000043_20261124_508CO0000000098）",
+   "date": "2026-11-24",
+   "note": "状態 CurrentEnforced"
+  }
+ ],
+ "applicable_years": "未確定（自動では決めない）。\n所得税の基準額は施行日ではなく、改正法の附則の「令和X年分以後」で適用が決まる（docs/hypotheses/20261109_R1-laws_hypotheses.md H2）。被改正法令の本文に収録された改正法の附則（SupplProvision の AmendLawNum）で確かめる。\n参考：施行日の年は 2026。",
+ "layers": [
+  {
+   "layer": "parameters",
+   "name": "判定コア：パラメータ（基準額・率・表。施行日・適用開始日つき）",
+   "checked": false,
+   "hint": "候補：このパラメータ 2 件が出典に引用"
+  },
+  {
+   "layer": "formulas",
+   "name": "判定コア：計算式・変数（rules/<モジュール>）",
+   "checked": false,
+   "hint": "候補：モジュール income_totals, income_kinds, kyuyo, tax"
+  },
+  {
+   "layer": "concepts",
+   "name": "概念辞書（concepts.yaml）",
+   "checked": false,
+   "hint": "候補：概念 10 件が定義の条文に引用"
+  },
+  {
+   "layer": "injection",
+   "name": "注入点（市町村・保険者ごとの値）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "ir",
+   "name": "中間表現（スキーマ）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "records",
+   "name": "記録（記録アダプタ・事実台帳・判断台帳）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "output",
+   "name": "出力の整形（様式の欄の対応表）",
+   "checked": false,
+   "hint": ""
+  }
+ ],
+ "candidates": {
+  "modules": [
+   {
+    "module": "income_totals",
+    "citations": 6
+   },
+   {
+    "module": "income_kinds",
+    "citations": 4
+   },
+   {
+    "module": "kyuyo",
+    "citations": 1
+   },
+   {
+    "module": "tax",
+    "citations": 1
+   }
+  ],
+  "parameters": [
+   "所得税.家内労働者等の必要経費の特例.額",
+   "所得税.所得金額調整控除.第2項.給与所得控除後の給与等の金額の上限"
+  ],
+  "concepts": [
+   "所得税.家内労働者等か",
+   "所得税.組合事業等と国外中古建物の不動産所得の損失のうち生じなかったものとみなす金額",
+   "所得税.不動産所得の損失のうち生じなかったものとみなす金額",
+   "所得税.総所得金額等",
+   "所得税.上場株式等の譲渡損失の繰越控除額",
+   "所得税.上場株式等の譲渡損失の繰越控除額のうち譲渡所得等から控除した額",
+   "所得税.上場株式等の譲渡損失の繰越控除額のうち配当所得等から控除した額",
+   "所得税.翌年以後に繰り越す上場株式等の譲渡損失の金額",
+   "所得税.給与所得控除後の給与等の金額",
+   "所得税.確定申告書の提出義務があるか"
+  ],
+  "files": [
+   "rules/income_kinds/parameters/所得税/家内労働者等の必要経費の特例.yaml",
+   "rules/income_totals/parameters/所得税/所得金額調整控除.yaml",
+   "rules/income_kinds/concepts.yaml",
+   "rules/income_totals/concepts.yaml",
+   "rules/kyuyo/concepts.yaml",
+   "rules/tax/concepts.yaml"
+  ]
+ },
+ "details": {
+  "events": [
+   {
+    "kind": "new",
+    "law_id": "332CO0000000043",
+    "revision_id": "332CO0000000043_20261124_508CO0000000098",
+    "revision": {
+     "amendment_law_num": "令和八年政令第九十八号",
+     "amendment_law_title": "租税特別措置法施行令の一部を改正する政令",
+     "amendment_promulgate_date": "2026-03-31",
+     "amendment_enforcement_date": "2026-11-24",
+     "amendment_scheduled_enforcement_date": null,
+     "amendment_enforcement_comment": null,
+     "repeal_status": "None",
+     "mission": "New",
+     "amendment_type": "3",
+     "law_title": "租税特別措置法施行令",
+     "current_revision_status": "CurrentEnforced",
+     "updated": "2026-11-24T13:53:02+09:00"
+    },
+    "changes": {}
+   }
+  ]
+ },
+ "labels": [
+  "法令の変更",
+  "e-Gov"
+ ]
+}

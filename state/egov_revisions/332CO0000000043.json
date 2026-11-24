@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-23",
+ "checked_on": "2026-11-24",
  "law_id": "332CO0000000043",
  "revisions": {
   "332CO0000000043_20170401_428CO0000000159": {
@@ -658,7 +658,7 @@
    "law_title": "租税特別措置法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2024-02-20T17:19:15+09:00"
+   "updated": "2026-11-24T09:55:30+09:00"
   },
   "332CO0000000043_20191001_431CO0000000102": {
    "amendment_enforcement_comment": null,
@@ -714,7 +714,7 @@
    "law_title": "租税特別措置法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-11-20T13:27:36+09:00"
+   "updated": "2026-11-24T09:54:57+09:00"
   },
   "332CO0000000043_20200101_431CO0000000102": {
    "amendment_enforcement_comment": null,
@@ -1984,11 +1984,25 @@
    "amendment_promulgate_date": "2025-03-31",
    "amendment_scheduled_enforcement_date": null,
    "amendment_type": "3",
+   "current_revision_status": "PreviousEnforced",
+   "law_title": "租税特別措置法施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2026-11-24T13:53:02+09:00"
+  },
+  "332CO0000000043_20261124_508CO0000000098": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2026-11-24",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_law_title": "租税特別措置法施行令の一部を改正する政令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
    "current_revision_status": "CurrentEnforced",
    "law_title": "租税特別措置法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-11-01T00:18:39+09:00"
+   "updated": "2026-11-24T13:53:02+09:00"
   },
   "332CO0000000043_20261126_508CO0000000098": {
    "amendment_enforcement_comment": "都市再生特別措置法等の一部を改正する法律（令和八年法律第二十三号）の施行の日",

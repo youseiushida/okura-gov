@@ -1,0 +1,114 @@
+{
+ "key": "egov-508M60000008046-new-2026-11-24",
+ "title": "[法令] 令和八年総務省令第四十六号（地方税法施行規則の一部を改正する省令）：地方税法施行規則に新しい版",
+ "source": "e-Gov 法令API v2（/law_revisions）",
+ "detected_on": "2026-11-24",
+ "summary": [
+  "地方税法施行規則：版 `329M50000002023_20261124_508M60000008046` が載った（施行 2026-11-24、CurrentEnforced、更新 2026-11-24T13:30:34+09:00）"
+ ],
+ "source_urls": [
+  "https://laws.e-gov.go.jp/law/329M50000002023/20261124_508M60000008046",
+  "https://laws.e-gov.go.jp/api/2/law_revisions/329M50000002023"
+ ],
+ "enforcement": [
+  {
+   "label": "地方税法施行規則（329M50000002023_20261124_508M60000008046）",
+   "date": "2026-11-24",
+   "note": "状態 CurrentEnforced"
+  }
+ ],
+ "applicable_years": "未確定（自動では決めない）。\n住民税は「令和X年度以後」の年度と前年の所得の軸で書かれる（同 H2）。附則で確かめる。\n参考：施行日の年は 2026。",
+ "layers": [
+  {
+   "layer": "parameters",
+   "name": "判定コア：パラメータ（基準額・率・表。施行日・適用開始日つき）",
+   "checked": false,
+   "hint": "候補：このパラメータ 3 件が出典に引用"
+  },
+  {
+   "layer": "formulas",
+   "name": "判定コア：計算式・変数（rules/<モジュール>）",
+   "checked": false,
+   "hint": "候補：モジュール juminzei"
+  },
+  {
+   "layer": "concepts",
+   "name": "概念辞書（concepts.yaml）",
+   "checked": false,
+   "hint": "候補：概念 1 件が定義の条文に引用"
+  },
+  {
+   "layer": "injection",
+   "name": "注入点（市町村・保険者ごとの値）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "ir",
+   "name": "中間表現（スキーマ）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "records",
+   "name": "記録（記録アダプタ・事実台帳・判断台帳）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "output",
+   "name": "出力の整形（様式の欄の対応表）",
+   "checked": false,
+   "hint": ""
+  }
+ ],
+ "candidates": {
+  "modules": [
+   {
+    "module": "juminzei",
+    "citations": 4
+   }
+  ],
+  "parameters": [
+   "住民税.森林環境税.非課税.級地の率.一級地.分子",
+   "住民税.非課税.均等割.基本額の上限",
+   "住民税.非課税.均等割.級地の率.一級地.分子"
+  ],
+  "concepts": [
+   "住民税.均等割を課さない者か"
+  ],
+  "files": [
+   "rules/juminzei/parameters/住民税/森林環境税.yaml",
+   "rules/juminzei/parameters/住民税/非課税.yaml",
+   "rules/juminzei/concepts.yaml"
+  ]
+ },
+ "details": {
+  "events": [
+   {
+    "kind": "new",
+    "law_id": "329M50000002023",
+    "revision_id": "329M50000002023_20261124_508M60000008046",
+    "revision": {
+     "amendment_law_num": "令和八年総務省令第四十六号",
+     "amendment_law_title": "地方税法施行規則の一部を改正する省令",
+     "amendment_promulgate_date": "2026-03-31",
+     "amendment_enforcement_date": "2026-11-24",
+     "amendment_scheduled_enforcement_date": null,
+     "amendment_enforcement_comment": null,
+     "repeal_status": "None",
+     "mission": "New",
+     "amendment_type": "3",
+     "law_title": "地方税法施行規則",
+     "current_revision_status": "CurrentEnforced",
+     "updated": "2026-11-24T13:30:34+09:00"
+    },
+    "changes": {}
+   }
+  ]
+ },
+ "labels": [
+  "法令の変更",
+  "e-Gov"
+ ]
+}

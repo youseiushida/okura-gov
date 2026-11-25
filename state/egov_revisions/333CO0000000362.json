@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-24",
+ "checked_on": "2026-11-25",
  "law_id": "333CO0000000362",
  "revisions": {
   "333CO0000000362_20170401_429CO0000000026": {
@@ -520,6 +520,20 @@
    "repeal_status": "None",
    "updated": "2026-08-13T12:05:42+09:00"
   },
+  "333CO0000000362_20270401_508CO0000000347": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2027-04-01",
+   "amendment_law_num": "令和八年政令第三百四十七号",
+   "amendment_law_title": "健康保険法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令",
+   "amendment_promulgate_date": "2026-11-11",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "UnEnforced",
+   "law_title": "国民健康保険法施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2026-11-25T10:15:37+09:00"
+  },
   "333CO0000000362_20270801_508CO0000000240": {
    "amendment_enforcement_comment": null,
    "amendment_enforcement_date": "2027-08-01",
@@ -532,7 +546,7 @@
    "law_title": "国民健康保険法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-08-13T12:12:16+09:00"
+   "updated": "2026-11-25T10:30:23+09:00"
   }
  },
  "title": "国民健康保険法施行令"

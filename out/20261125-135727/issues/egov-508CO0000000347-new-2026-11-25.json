@@ -1,0 +1,225 @@
+{
+ "key": "egov-508CO0000000347-new-2026-11-25",
+ "title": "[法令] 令和八年政令第三百四十七号（健康保険法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令）：地方税法施行令・国民健康保険法施行令に新しい版",
+ "source": "e-Gov 法令API v2（/law_revisions）",
+ "detected_on": "2026-11-25",
+ "summary": [
+  "地方税法施行令：版 `325CO0000000245_20270401_508CO0000000347` が載った（施行 2027-04-01、UnEnforced、更新 2026-11-25T10:13:56+09:00）",
+  "国民健康保険法施行令：版 `333CO0000000362_20270401_508CO0000000347` が載った（施行 2027-04-01、UnEnforced、更新 2026-11-25T10:15:37+09:00）"
+ ],
+ "source_urls": [
+  "https://laws.e-gov.go.jp/law/325CO0000000245/20270401_508CO0000000347",
+  "https://laws.e-gov.go.jp/law/333CO0000000362/20270401_508CO0000000347",
+  "https://laws.e-gov.go.jp/api/2/law_revisions/325CO0000000245",
+  "https://laws.e-gov.go.jp/api/2/law_revisions/333CO0000000362"
+ ],
+ "enforcement": [
+  {
+   "label": "地方税法施行令（325CO0000000245_20270401_508CO0000000347）",
+   "date": "2027-04-01",
+   "note": "状態 UnEnforced"
+  },
+  {
+   "label": "国民健康保険法施行令（333CO0000000362_20270401_508CO0000000347）",
+   "date": "2027-04-01",
+   "note": "状態 UnEnforced"
+  }
+ ],
+ "applicable_years": "未確定（自動では決めない）。\n住民税は「令和X年度以後」の年度と前年の所得の軸で書かれる（同 H2）。附則で確かめる。\n社会保険は、施行日・認定日・年度など規則ごとに軸が違う（docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md H2）。附則・通知の本文で確かめる。\n参考：施行日の年は 2027。",
+ "layers": [
+  {
+   "layer": "parameters",
+   "name": "判定コア：パラメータ（基準額・率・表。施行日・適用開始日つき）",
+   "checked": false,
+   "hint": "候補：このパラメータ 19 件が出典に引用"
+  },
+  {
+   "layer": "formulas",
+   "name": "判定コア：計算式・変数（rules/<モジュール>）",
+   "checked": false,
+   "hint": "候補：モジュール kokuho, juminzei, income_totals, income_kinds"
+  },
+  {
+   "layer": "concepts",
+   "name": "概念辞書（concepts.yaml）",
+   "checked": false,
+   "hint": "候補：概念 49 件が定義の条文に引用"
+  },
+  {
+   "layer": "injection",
+   "name": "注入点（市町村・保険者ごとの値）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "ir",
+   "name": "中間表現（スキーマ）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "records",
+   "name": "記録（記録アダプタ・事実台帳・判断台帳）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "output",
+   "name": "出力の整形（様式の欄の対応表）",
+   "checked": false,
+   "hint": ""
+  }
+ ],
+ "candidates": {
+  "modules": [
+   {
+    "module": "kokuho",
+    "citations": 63
+   },
+   {
+    "module": "juminzei",
+    "citations": 21
+   },
+   {
+    "module": "income_totals",
+    "citations": 4
+   },
+   {
+    "module": "income_kinds",
+    "citations": 2
+   }
+  ],
+  "parameters": [
+   "住民税.調整控除.人的控除差.障害者",
+   "住民税.非課税.数える扶養親族の年齢の上限",
+   "住民税.非課税.均等割.定額",
+   "住民税.非課税.均等割.基本額の上限",
+   "国保.政令の基準の年度",
+   "国保.賦課限度額.基礎賦課額",
+   "国保.賦課限度額.後期高齢者支援金等賦課額",
+   "国保.賦課限度額.介護納付金賦課額",
+   "国保.賦課限度額.子ども・子育て支援納付金賦課額",
+   "国保.軽減.基準額",
+   "国保.軽減.給与所得者等の加算額",
+   "国保.軽減.五割の被保険者等1人あたりの額",
+   "国保.軽減.二割の被保険者等1人あたりの額",
+   "国保.軽減.給与所得者等の基準.公的年金等の収入金額_65歳以上",
+   "国保.未就学児の均等割の減額の割合.分子",
+   "国保.未就学児の均等割の減額の割合.分母",
+   "国保.軽減.公的年金等の特例の控除額",
+   "国保.軽減.給与所得者等の基準.給与等の収入金額",
+   "国保.軽減.給与所得者等の基準.公的年金等の収入金額_65歳未満"
+  ],
+  "concepts": [
+   "所得税.退職所得を除いた区分による公的年金等に係る雑所得の金額",
+   "所得税.特定支出控除を当てた場合の退職所得を除いた区分による公的年金等に係る雑所得の金額",
+   "所得税.退職所得を除いた公的年金等に係る雑所得以外の合計所得金額",
+   "所得税.分離課税の退職所得を除いた所得の合計",
+   "所得税.特定支出控除を当てた場合の退職所得を除いた公的年金等に係る雑所得以外の合計所得金額",
+   "所得税.特定支出控除を当てた場合の分離課税の退職所得を除いた合計所得金額",
+   "住民税.均等割の非課税の条例の額",
+   "住民税.法令上の性別が女性か",
+   "住民税.根拠のない端数の候補",
+   "住民税.連鎖の非課税の判定で数える扶養親族の数",
+   "住民税.扶養の割当て",
+   "住民税.雑損失の繰越控除の後の所得",
+   "住民税.雑損失の繰越控除額",
+   "住民税.扶養親族等の納税義務者",
+   "住民税.扶養の判定を所得税と別に行うか",
+   "住民税.他の納税義務者の扶養親族等とされているか",
+   "住民税.非課税の判定で数える扶養親族か",
+   "住民税.同一生計配偶者及び扶養親族の数",
+   "住民税.均等割の非課税の基準の額",
+   "住民税.均等割を課さない者か",
+   "住民税.人的控除差の合計",
+   "住民税.調整控除の額",
+   "住民税.配当割額等の控除不足額",
+   "国保.未就学児か",
+   "国保.年度の政令の基準が登録されているか",
+   "国保.被保険者等の数",
+   "国保.軽減の判定で数える給与所得者等か",
+   "国保.軽減判定所得",
+   "国保.軽減の区分",
+   "国保.7割軽減の基準額",
+   "国保.5割軽減の基準額",
+   "国保.2割軽減の基準額",
+   "国保.7割軽減の所得基準を満たすか",
+   "国保.5割軽減の所得基準を満たすか",
+   "国保.2割軽減の所得基準を満たすか",
+   "国保.介護納付金賦課被保険者である月数",
+   "国保.十八歳以上被保険者か",
+   "国保.特定同一世帯所属者か",
+   "国保.資産割の基礎の額",
+   "国保.非自発的失業者の特例の対象か",
+   "国保.保険料の額が月割りと限度額の順序で変わらないか",
+   "国保.産前産後の減額の月数",
+   "国保.介護の産前産後の減額の月数",
+   "国保.非自発的失業者の特例で総所得金額から減る額",
+   "国保.非自発的失業者の特例で軽減判定の所得から減る額",
+   "国保.基礎控除後の総所得金額等",
+   "国保.軽減判定に使う所得",
+   "国保.所得割額",
+   "国保.保険料の額"
+  ],
+  "files": [
+   "rules/juminzei/parameters/住民税/調整控除.yaml",
+   "rules/juminzei/parameters/住民税/非課税.yaml",
+   "rules/kokuho/parameters/国保/政令の基準の年度.yaml",
+   "rules/kokuho/parameters/国保/賦課限度額.yaml",
+   "rules/kokuho/parameters/国保/軽減.yaml",
+   "rules/income_kinds/concepts.yaml",
+   "rules/income_totals/concepts.yaml",
+   "rules/juminzei/concepts.yaml",
+   "rules/kokuho/concepts.yaml",
+   "rules/kokuho/parameters/国保/未就学児の均等割の減額の割合.yaml"
+  ]
+ },
+ "details": {
+  "events": [
+   {
+    "kind": "new",
+    "law_id": "325CO0000000245",
+    "revision_id": "325CO0000000245_20270401_508CO0000000347",
+    "revision": {
+     "amendment_law_num": "令和八年政令第三百四十七号",
+     "amendment_law_title": "健康保険法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令",
+     "amendment_promulgate_date": "2026-11-11",
+     "amendment_enforcement_date": "2027-04-01",
+     "amendment_scheduled_enforcement_date": null,
+     "amendment_enforcement_comment": null,
+     "repeal_status": "None",
+     "mission": "New",
+     "amendment_type": "3",
+     "law_title": "地方税法施行令",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-11-25T10:13:56+09:00"
+    },
+    "changes": {}
+   },
+   {
+    "kind": "new",
+    "law_id": "333CO0000000362",
+    "revision_id": "333CO0000000362_20270401_508CO0000000347",
+    "revision": {
+     "amendment_law_num": "令和八年政令第三百四十七号",
+     "amendment_law_title": "健康保険法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令",
+     "amendment_promulgate_date": "2026-11-11",
+     "amendment_enforcement_date": "2027-04-01",
+     "amendment_scheduled_enforcement_date": null,
+     "amendment_enforcement_comment": null,
+     "repeal_status": "None",
+     "mission": "New",
+     "amendment_type": "3",
+     "law_title": "国民健康保険法施行令",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-11-25T10:15:37+09:00"
+    },
+    "changes": {}
+   }
+  ]
+ },
+ "labels": [
+  "法令の変更",
+  "e-Gov"
+ ]
+}

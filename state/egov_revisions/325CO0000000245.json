@@ -1,5 +1,5 @@
 {
- "checked_on": "2026-11-24",
+ "checked_on": "2026-11-25",
  "law_id": "325CO0000000245",
  "revisions": {
   "325CO0000000245_20170401_429CO0000000118": {
@@ -1906,6 +1906,20 @@
    "repeal_status": "None",
    "updated": "2026-09-08T11:33:33+09:00"
   },
+  "325CO0000000245_20270401_508CO0000000347": {
+   "amendment_enforcement_comment": null,
+   "amendment_enforcement_date": "2027-04-01",
+   "amendment_law_num": "令和八年政令第三百四十七号",
+   "amendment_law_title": "健康保険法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令",
+   "amendment_promulgate_date": "2026-11-11",
+   "amendment_scheduled_enforcement_date": null,
+   "amendment_type": "3",
+   "current_revision_status": "UnEnforced",
+   "law_title": "地方税法施行令",
+   "mission": "New",
+   "repeal_status": "None",
+   "updated": "2026-11-25T10:13:56+09:00"
+  },
   "325CO0000000245_20270526_508CO0000000083": {
    "amendment_enforcement_comment": "都市再生特別措置法等の一部を改正する法律（令和八年法律第二十三号）附則第一条第二号に掲げる規定の施行の日",
    "amendment_enforcement_date": "2027-05-26",
@@ -1918,7 +1932,7 @@
    "law_title": "地方税法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-09-08T11:35:33+09:00"
+   "updated": "2026-11-25T10:44:45+09:00"
   },
   "325CO0000000245_20270618_508CO0000000083": {
    "amendment_enforcement_comment": "産業技術力強化法の一部を改正する法律（令和八年法律第四十一号）の施行の日",
@@ -1932,7 +1946,7 @@
    "law_title": "地方税法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-09-08T11:37:29+09:00"
+   "updated": "2026-11-25T11:27:40+09:00"
   },
   "325CO0000000245_20280101_508CO0000000083": {
    "amendment_enforcement_comment": null,
@@ -1946,7 +1960,7 @@
    "law_title": "地方税法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-09-08T11:39:20+09:00"
+   "updated": "2026-11-25T12:02:04+09:00"
   },
   "325CO0000000245_20280401_508CO0000000083": {
    "amendment_enforcement_comment": null,
@@ -1960,7 +1974,7 @@
    "law_title": "地方税法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-09-08T11:41:05+09:00"
+   "updated": "2026-11-25T12:27:06+09:00"
   },
   "325CO0000000245_20290101_508CO0000000083": {
    "amendment_enforcement_comment": "金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日の属する年の翌々年の一月一日",
@@ -1974,7 +1988,7 @@
    "law_title": "地方税法施行令",
    "mission": "New",
    "repeal_status": "None",
-   "updated": "2026-09-08T11:42:35+09:00"
+   "updated": "2026-11-25T12:52:40+09:00"
   },
   "325CO0000000245_20290401_508CO0000000083": {
    "amendment_enforcement_comment": null,

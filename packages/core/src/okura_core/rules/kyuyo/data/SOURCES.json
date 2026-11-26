@@ -11,9 +11,9 @@
       "egov_source_url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2025-12-31",
       "egov_source_sha256": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
       "source_kind": "法律",
-      "sha256": "37e0b46c4784e2ba418b5f4402fe8b4742212c3569528595fc437c538c4f7431",
+      "sha256": "a21255c4f9c2f78caea0c500a16b67bf10d7259f31d0d2c3fb3b7cc34daa7b26",
       "original": "scripts/results/IMPL_kyuyo_beppyo5/beppyo5_2025-12-31.csv",
-      "original_sha256": "37e0b46c4784e2ba418b5f4402fe8b4742212c3569528595fc437c538c4f7431",
+      "original_sha256": "a21255c4f9c2f78caea0c500a16b67bf10d7259f31d0d2c3fb3b7cc34daa7b26",
       "produced_by": "scripts/IMPL_kyuyo_beppyo5.py",
       "copied_on": "2026-11-11",
       "references": [
@@ -32,9 +32,9 @@
       "egov_source_url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2026-12-01",
       "egov_source_sha256": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
       "source_kind": "法律",
-      "sha256": "d88ea5420892a4f23bbfc3d60147a3f6e7ff83441d62eb849cb9c4f7514d767e",
+      "sha256": "f5bb078cd541bc22a03a5aab96d959f376a2da33bdaa4d9b3dafefed508c76a1",
       "original": "scripts/results/IMPL_kyuyo_beppyo5/beppyo5_2026-12-01.csv",
-      "original_sha256": "d88ea5420892a4f23bbfc3d60147a3f6e7ff83441d62eb849cb9c4f7514d767e",
+      "original_sha256": "f5bb078cd541bc22a03a5aab96d959f376a2da33bdaa4d9b3dafefed508c76a1",
       "produced_by": "scripts/IMPL_kyuyo_beppyo5.py",
       "copied_on": "2026-11-11",
       "references": [

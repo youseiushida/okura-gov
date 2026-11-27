@@ -1,0 +1,181 @@
+{
+ "key": "egov-bulk-2026-11-26",
+ "title": "[法令・監視対象外] 2026-11-26 の更新法令データ：関係しうる改正 2 件（高齢者の医療の確保に関する法律施行規則・国民健康保険法施行規則 ほか）",
+ "source": "e-Gov 法令データ一括ダウンロード（更新法令データ 2026-11-26、R081126.csv）",
+ "detected_on": "2026-11-27",
+ "summary": [
+  "改正法令 令和八年厚生労働省令第百五十一号（健康保険法施行規則等の一部を改正する省令、公布 令和八年十月二十八日）：高齢者の医療の確保に関する法律施行規則・国民健康保険法施行規則",
+  "改正法令 令和八年厚生労働省令第百五十三号（国民健康保険法施行規則等の一部を改正する省令、公布 令和八年十一月十二日）：介護保険法施行規則・高齢者の医療の確保に関する法律施行規則・国民健康保険法施行規則",
+  "いずれも判定コアが引用していない法令。関係するかどうかを人が判断し、関係するなら targets.LAW_NAMES と判定コアの出典に足す。"
+ ],
+ "source_urls": [
+  "https://laws.e-gov.go.jp/law/419M60000100129/20270801_508M60000100151",
+  "https://laws.e-gov.go.jp/law/333M50000100053/20270801_508M60000100151",
+  "https://laws.e-gov.go.jp/law/411M50000100036/20261112_508M60000100153",
+  "https://laws.e-gov.go.jp/law/419M60000100129/20261112_508M60000100153",
+  "https://laws.e-gov.go.jp/law/333M50000100053/20261112_508M60000100153",
+  "https://laws.e-gov.go.jp/bulkdownload?file_section=3&update_date=20261126&only_xml_flag=true"
+ ],
+ "enforcement": [
+  {
+   "label": "高齢者の医療の確保に関する法律施行規則（419M60000100129）／令和八年厚生労働省令第百五十一号",
+   "date": "2027-08-01",
+   "note": "未施行"
+  },
+  {
+   "label": "国民健康保険法施行規則（333M50000100053）／令和八年厚生労働省令第百五十一号",
+   "date": "2027-08-01",
+   "note": "未施行"
+  },
+  {
+   "label": "介護保険法施行規則（411M50000100036）／令和八年厚生労働省令第百五十三号",
+   "date": "2026-11-12",
+   "note": ""
+  },
+  {
+   "label": "高齢者の医療の確保に関する法律施行規則（419M60000100129）／令和八年厚生労働省令第百五十三号",
+   "date": "2026-11-12",
+   "note": ""
+  },
+  {
+   "label": "国民健康保険法施行規則（333M50000100053）／令和八年厚生労働省令第百五十三号",
+   "date": "2026-11-12",
+   "note": ""
+  }
+ ],
+ "applicable_years": "未確定（自動では決めない）。\n社会保険は、施行日・認定日・年度など規則ごとに軸が違う（docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md H2）。附則・通知の本文で確かめる。\n参考：施行日の年は 2026、2027。",
+ "layers": [
+  {
+   "layer": "parameters",
+   "name": "判定コア：パラメータ（基準額・率・表。施行日・適用開始日つき）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "formulas",
+   "name": "判定コア：計算式・変数（rules/<モジュール>）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "concepts",
+   "name": "概念辞書（concepts.yaml）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "injection",
+   "name": "注入点（市町村・保険者ごとの値）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "ir",
+   "name": "中間表現（スキーマ）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "records",
+   "name": "記録（記録アダプタ・事実台帳・判断台帳）",
+   "checked": false,
+   "hint": ""
+  },
+  {
+   "layer": "output",
+   "name": "出力の整形（様式の欄の対応表）",
+   "checked": false,
+   "hint": ""
+  }
+ ],
+ "candidates": {
+  "modules": [],
+  "parameters": [],
+  "concepts": [],
+  "files": []
+ },
+ "details": {
+  "rows": [
+   {
+    "law_type": "府省令",
+    "law_num": "平成十九年厚生労働省令第百二十九号",
+    "law_title": "高齢者の医療の確保に関する法律施行規則",
+    "amendment_law_title": "健康保険法施行規則等の一部を改正する省令",
+    "amendment_law_num": "令和八年厚生労働省令第百五十一号",
+    "amendment_promulgate_raw": "令和八年十月二十八日",
+    "enforcement_raw": "令和九年八月一日",
+    "enforcement_date": "2027-08-01",
+    "enforcement_provisional": false,
+    "enforcement_note": "",
+    "law_id": "419M60000100129",
+    "url": "https://laws.e-gov.go.jp/law/419M60000100129/20270801_508M60000100151",
+    "unenforced": true
+   },
+   {
+    "law_type": "府省令",
+    "law_num": "昭和三十三年厚生省令第五十三号",
+    "law_title": "国民健康保険法施行規則",
+    "amendment_law_title": "健康保険法施行規則等の一部を改正する省令",
+    "amendment_law_num": "令和八年厚生労働省令第百五十一号",
+    "amendment_promulgate_raw": "令和八年十月二十八日",
+    "enforcement_raw": "令和九年八月一日",
+    "enforcement_date": "2027-08-01",
+    "enforcement_provisional": false,
+    "enforcement_note": "",
+    "law_id": "333M50000100053",
+    "url": "https://laws.e-gov.go.jp/law/333M50000100053/20270801_508M60000100151",
+    "unenforced": true
+   },
+   {
+    "law_type": "府省令",
+    "law_num": "平成十一年厚生省令第三十六号",
+    "law_title": "介護保険法施行規則",
+    "amendment_law_title": "国民健康保険法施行規則等の一部を改正する省令",
+    "amendment_law_num": "令和八年厚生労働省令第百五十三号",
+    "amendment_promulgate_raw": "令和八年十一月十二日",
+    "enforcement_raw": "令和八年十一月十二日",
+    "enforcement_date": "2026-11-12",
+    "enforcement_provisional": false,
+    "enforcement_note": "",
+    "law_id": "411M50000100036",
+    "url": "https://laws.e-gov.go.jp/law/411M50000100036/20261112_508M60000100153",
+    "unenforced": false
+   },
+   {
+    "law_type": "府省令",
+    "law_num": "平成十九年厚生労働省令第百二十九号",
+    "law_title": "高齢者の医療の確保に関する法律施行規則",
+    "amendment_law_title": "国民健康保険法施行規則等の一部を改正する省令",
+    "amendment_law_num": "令和八年厚生労働省令第百五十三号",
+    "amendment_promulgate_raw": "令和八年十一月十二日",
+    "enforcement_raw": "令和八年十一月十二日",
+    "enforcement_date": "2026-11-12",
+    "enforcement_provisional": false,
+    "enforcement_note": "",
+    "law_id": "419M60000100129",
+    "url": "https://laws.e-gov.go.jp/law/419M60000100129/20261112_508M60000100153",
+    "unenforced": false
+   },
+   {
+    "law_type": "府省令",
+    "law_num": "昭和三十三年厚生省令第五十三号",
+    "law_title": "国民健康保険法施行規則",
+    "amendment_law_title": "国民健康保険法施行規則等の一部を改正する省令",
+    "amendment_law_num": "令和八年厚生労働省令第百五十三号",
+    "amendment_promulgate_raw": "令和八年十一月十二日",
+    "enforcement_raw": "令和八年十一月十二日",
+    "enforcement_date": "2026-11-12",
+    "enforcement_provisional": false,
+    "enforcement_note": "",
+    "law_id": "333M50000100053",
+    "url": "https://laws.e-gov.go.jp/law/333M50000100053/20261112_508M60000100153",
+    "unenforced": false
+   }
+  ]
+ },
+ "labels": [
+  "法令の変更",
+  "e-Gov",
+  "監視対象外"
+ ]
+}

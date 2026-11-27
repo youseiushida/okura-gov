@@ -1,6 +1,6 @@
 {
  "etag": null,
- "items": 133,
+ "items": 134,
  "keys": [
   "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260924S0010.pdf",
   "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260924S0020.pdf",
@@ -134,7 +134,8 @@
   "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261118I0010.pdf",
   "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261118S0020.pdf",
   "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261118S0030.pdf",
-  "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261118S0040.pdf"
+  "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261118S0040.pdf",
+  "https://www.mhlw.go.jp/hourei/doc/tsuchi/T261126I0010.pdf"
  ],
- "last_modified": "Tue, 17 Nov 2026 07:23:02 GMT"
+ "last_modified": "Wed, 25 Nov 2026 07:16:10 GMT"
 }
